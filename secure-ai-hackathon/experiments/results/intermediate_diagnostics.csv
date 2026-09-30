@@ -1,0 +1,6 @@
+,test_auc,test_bestF1,holdout_auc,holdout_f1,test_pred_attack_rate,test_FPR,recall_dos,recall_probe,recall_r2l_u2r_other
+naive FedAvg,0.8769,0.8572,0.9907,0.9556,0.3428,0.0392,0.7746,0.6105,0.0308
+equal weights,0.9085,0.8717,0.9909,0.9577,0.3845,0.0632,0.7756,0.8023,0.1106
+FedNova (equal),0.9204,0.879,0.9902,0.9479,0.4189,0.0794,0.7777,0.9101,0.2266
+FedNova + dissim T=3,0.9191,0.8717,0.9886,0.9338,0.4449,0.0948,0.7833,0.9625,0.3166
+FedNova + dissim T=5,0.9158,0.8678,0.9862,0.9196,0.4688,0.1182,0.793,0.9851,0.3797
